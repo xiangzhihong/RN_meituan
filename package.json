@@ -1,0 +1,30 @@
+{
+	"name": "Meituan",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"ac-qrcode": "^1.0.1",
+		"native-base": "^2.3.0",
+		"react": "16.0.0-alpha.6",
+		"react-native": "0.44.3",
+		"react-native-blur": "^3.1.2",
+		"react-native-deprecated-custom-components": "^0.1.1",
+		"react-native-parabolic": "^1.1.1",
+		"react-native-scrollable-tab-view": "^0.6.7",
+		"react-native-tab-navigator": "^0.3.3",
+		"react-native-vector-icons": "^4.2.0"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.3",
+		"babel-preset-react-native": "2.0.0",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.6"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
