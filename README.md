@@ -16,16 +16,14 @@ React Native美团项目
 
 # 运行前注意
 运行前请参考package.json文件需要的第三方库安装第三方库，或者直接使用npm install命令 安装依赖库（react native 0.51.0版本，最新版本请升级）。
-由于项目中使用的navigator被RN官方在0.44版本去除，所以在后面的版本中需要使用库：react-native-deprecated-custom-components。相关知识可以访问：http://blog.csdn.net/xiangzhihong8/article/details/78836136
+由于项目中使用的navigator被RN官方在0.44版本去除，所以在后面的版本中需要使用库：react-native-deprecated-custom-components。相关知识可以访问[navigator报错](http://blog.csdn.net/xiangzhihong8/article/details/78836136)。
 
-
-然后使用命令运行项目：
+依赖环境安装好后，然后使用命令运行项目：
 ## Android
 react-native run-android
 
 ## ios
 react-native run-ios
-
 
 # 开源协议
 
