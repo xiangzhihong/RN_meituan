@@ -3,12 +3,6 @@ package com.meituan;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-<<<<<<< HEAD
-=======
-import com.oblador.vectoricons.VectorIconsPackage;
-import com.lwansbrough.RCTCamera.RCTCameraPackage;
-import com.cmcewen.blurview.BlurViewPackage;
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -28,7 +22,6 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-<<<<<<< HEAD
           new MainReactPackage()
       );
     }
@@ -37,14 +30,6 @@ public class MainApplication extends Application implements ReactApplication {
     protected String getJSMainModuleName() {
       return "index";
     }
-=======
-          new MainReactPackage(),
-            new VectorIconsPackage(),
-            new RCTCameraPackage(),
-            new BlurViewPackage()
-      );
-    }
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
   };
 
   @Override
