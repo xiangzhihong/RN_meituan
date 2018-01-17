@@ -1,10 +1,6 @@
 # RN_meituan
 React Native美团项目
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 # meituanr部分运行效果
 ![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/EF415DFF-239F-44C7-880B-F73093562606.png) 
 ![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/E051BDFB-82F7-48ED-A885-001100AF0BE3.png) 
@@ -19,8 +15,11 @@ React Native美团项目
   
 
 # 运行前注意
-运行前请参考package.json文件需要的第三方库安装第三方库，或者直接使用npm install 安装依赖库（react native 0.44.3版本，最新版本请升级）。然后使用命令运行项目：
+运行前请参考package.json文件需要的第三方库安装第三方库，或者直接使用npm install命令 安装依赖库（react native 0.51.0版本，最新版本请升级）。
+由于项目中使用的navigator被RN官方在0.44版本去除，所以在后面的版本中需要使用库：react-native-deprecated-custom-components。相关知识可以访问：http://blog.csdn.net/xiangzhihong8/article/details/78836136
 
+
+然后使用命令运行项目：
 ## Android
 react-native run-android
 
@@ -36,8 +35,5 @@ This program is free software; you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-<<<<<<< HEAD
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-=======
-You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
+
