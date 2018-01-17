@@ -5,7 +5,11 @@
 
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, RefreshControl, ListView, ActivityIndicator, TouchableOpacity } from 'react-native';
+<<<<<<< HEAD
 import PropTypes from 'prop-types';
+=======
+
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 export const RefreshState = {
     Idle: 'Idle',
     Refreshing: 'Refreshing',
@@ -16,8 +20,13 @@ export const RefreshState = {
 export default class RefreshListView extends Component {
 
     static propTypes = {
+<<<<<<< HEAD
         onHeaderRefresh: PropTypes.func,
         onFooterRefresh: PropTypes.func,
+=======
+        onHeaderRefresh: React.PropTypes.func,
+        onFooterRefresh: React.PropTypes.func,
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
     }
 
     static defaultProps = {

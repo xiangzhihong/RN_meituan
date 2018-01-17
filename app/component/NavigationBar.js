@@ -2,8 +2,12 @@
  * NavigationBar
  * @flow
  */
+<<<<<<< HEAD
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+=======
+import React, {Component, PropTypes} from 'react';
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 
 import {
     StyleSheet,
@@ -58,7 +62,11 @@ export default class NavigationBar extends Component {
         hide: PropTypes.bool,
         statusBar: PropTypes.shape(StatusBarShape),
         rightButton: PropTypes.oneOfType([
+<<<<<<< HEAD
            PropTypes.shape(ButtonShape),
+=======
+            PropTypes.shape(ButtonShape),
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
             PropTypes.element,
         ]),
         leftButton: PropTypes.oneOfType([

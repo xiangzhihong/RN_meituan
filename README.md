@@ -1,7 +1,10 @@
 # RN_meituan
 React Native美团项目
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 # meituanr部分运行效果
 ![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/EF415DFF-239F-44C7-880B-F73093562606.png) 
 ![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/E051BDFB-82F7-48ED-A885-001100AF0BE3.png) 
@@ -33,4 +36,8 @@ This program is free software; you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
+<<<<<<< HEAD
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+=======
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de

@@ -33,6 +33,7 @@ import com.android.build.OutputFile
  *   // bundleInPaidRelease: true,
  *   // bundleInBeta: true,
  *
+<<<<<<< HEAD
  *   // whether to disable dev mode in custom build variants (by default only disabled in release)
  *   // for example: to disable dev mode in the staging build type (if configured)
  *   devDisabledInStaging: true,
@@ -40,6 +41,8 @@ import com.android.build.OutputFile
  *   //         'devDisabledIn${productFlavor}${buildType}'
  *   //         'devDisabledIn${buildType}'
  *
+=======
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
  *   // the root of your project, i.e. where "package.json" lives
  *   root: "../../",
  *
@@ -72,10 +75,13 @@ import com.android.build.OutputFile
  * ]
  */
 
+<<<<<<< HEAD
 project.ext.react = [
     entryFile: "index.js"
 ]
 
+=======
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 apply from: "../../node_modules/react-native/react.gradle"
 
 /**
@@ -137,6 +143,12 @@ android {
 }
 
 dependencies {
+<<<<<<< HEAD
+=======
+    compile project(':react-native-vector-icons')
+    compile project(':react-native-camera')
+    compile project(':react-native-blur')
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules

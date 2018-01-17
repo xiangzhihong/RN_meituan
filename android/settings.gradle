@@ -1,3 +1,12 @@
 rootProject.name = 'Meituan'
+<<<<<<< HEAD
+=======
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+include ':react-native-blur'
+project(':react-native-blur').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-blur/android')
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 
 include ':app'

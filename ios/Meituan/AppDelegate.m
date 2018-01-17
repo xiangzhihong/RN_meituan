@@ -18,7 +18,11 @@
 {
   NSURL *jsCodeLocation;
 
+<<<<<<< HEAD
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
+=======
+  jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                       moduleName:@"Meituan"

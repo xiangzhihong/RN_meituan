@@ -4,22 +4,38 @@
 
 import React, {
   Component,
+<<<<<<< HEAD
+=======
+  PropTypes
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 } from 'react'
 import {
   StyleSheet,
   View,
   Animated,
+<<<<<<< HEAD
+=======
+    Image,
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
   TouchableOpacity,
   TouchableNativeFeedback,
   Platform
 } from 'react-native'
 import px2dp from '../util/Utils'
 import Icon from 'react-native-vector-icons/Ionicons'
+<<<<<<< HEAD
 import PropTypes from 'prop-types';
+=======
+import ImageButton from "./ImageButton";
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 
 export default class NavBar extends Component{
 
     static propTypes = {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
         title: PropTypes.string,
         leftIcon: PropTypes.string,
         rightIcon: PropTypes.string,
