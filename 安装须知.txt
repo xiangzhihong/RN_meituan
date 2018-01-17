@@ -1,0 +1,5 @@
+1，请确保你已经安装了React Native所需要的环境（Android sdk环境，前端环境）。
+相关资料：http://reactnative.cn/docs/0.46/getting-started.html
+
+2，使用npm工具安装项目依赖的库(在项目目录下)：npm install 
+
