@@ -4,11 +4,7 @@
  * @flow 倒计时控件
  */
 
-<<<<<<< HEAD
 import React, {Component} from 'react';
-=======
-import React, {Component,PropTypes} from 'react';
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 import {
     Text,
     StyleSheet,
@@ -16,10 +12,7 @@ import {
     View,
     TouchableOpacity,
 } from 'react-native';
-<<<<<<< HEAD
 import PropTypes from 'prop-types';
-=======
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 
 const {width, height} = Dimensions.get('window')
 
@@ -43,11 +36,7 @@ export default  class TimerButton extends Component {
         onClick: PropTypes.func,
         disableColor: PropTypes.string,
         timerTitle: PropTypes.string,
-<<<<<<< HEAD
         enable: PropTypes.oneOfType([PropTypes.bool,PropTypes.number])
-=======
-        enable: React.PropTypes.oneOfType([React.PropTypes.bool,React.PropTypes.number])
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
     };
 
     countDownAction() {
