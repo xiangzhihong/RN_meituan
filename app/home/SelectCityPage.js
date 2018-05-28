@@ -49,12 +49,8 @@ export default class SelectCityPage extends Component {
         }
         alert('你选择了城市====》' + cityJson.id + '#####' + cityJson.name);
         let navigation=this.props.navigation;
-<<<<<<< HEAD
         // navigation.pop()
         this.onBackPress()
-=======
-        navigation.goBack();
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
     }
 
     render() {
