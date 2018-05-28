@@ -46,7 +46,6 @@ export default class CountDownView extends Component {
     mins: PropTypes.string,
     segs: PropTypes.string,
     onEnd: PropTypes.func,
-=======
     date: React.PropTypes.string,
     days: React.PropTypes.objectOf(PropTypes.string),
     hours: React.PropTypes.string,
