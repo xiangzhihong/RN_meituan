@@ -50,11 +50,7 @@ export default class LimitTimeView extends Component {
                         <Text style={{fontSize: px2dp(14), fontWeight: "bold"}}>限时抢购</Text>
                         <Text style={{fontSize: px2dp(11), color: "#aaa", marginLeft: 10}}>距离结束</Text>
                         <CountDownView
-<<<<<<< HEAD
-                            date="2017-08-16T24:00:00+00:00"
-=======
-                            date="2017-08-12T24:00:00+00:00"
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
+                            date="2018-08-16T24:00:00+00:00"
                         />
                     </View>
                     <TouchableOpacity onPress={this.more.bind(this)}>
