@@ -16,11 +16,7 @@ import {
     findNodeHandle
 } from 'react-native'
 import ScrollableTabView from 'react-native-scrollable-tab-view'
-<<<<<<< HEAD
 import Parabolic from '../util/Parabolic'
-=======
-import Parabolic from 'react-native-parabolic'
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 import {BlurView} from 'react-native-blur'
 import px2dp from '../util/Utils'
 import data from '../config/data'
