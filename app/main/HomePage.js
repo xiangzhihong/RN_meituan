@@ -1,6 +1,7 @@
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
+ * 首页模块
  */
 
 import React, {Component} from 'react';
@@ -12,10 +13,7 @@ import {
     ListView,
     View
 } from 'react-native';
-<<<<<<< HEAD
 
-=======
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 import RefreshListView , { RefreshState } from '../component/RefreshListView'
 import HomeActionBar from '../home/HomeActionBar'
 import ProductItemCell from '../home/ProductItemCell'
