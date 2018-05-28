@@ -7,16 +7,22 @@ React Native美团项目
 ![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/CDF3C415-2313-4ACB-9697-5DD7D5023532.png) 
 ![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/98E56718-76DD-4E5D-9BFC-25AF1CA1ADB4.png) 
 ![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/93AD96D2-4047-4A04-8143-DC2A4786DC51.png) 
-   ![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/6C3EF726-1F52-4BE9-B585-707262A3A5E7.png) 
-   ![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/05C3275A-5F91-4AB5-A744-BAB5C7D8D4D2.png) 
-   ![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/29B275BE-4304-410E-AD8A-5A628AD3D820.png) 
-   ![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/38ED3E84-6A50-4281-8889-7E42064FC394.png) 
-   ![ABC]( https://github.com/xiangzhihong/RN_meituan/blob/master/screen/D33945CE-65A6-46D1-9251-14A9D5BB0D2D.png) 
+![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/6C3EF726-1F52-4BE9-B585-707262A3A5E7.png) 
+![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/05C3275A-5F91-4AB5-A744-BAB5C7D8D4D2.png) 
+![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/29B275BE-4304-410E-AD8A-5A628AD3D820.png) 
+![ABC](https://github.com/xiangzhihong/RN_meituan/blob/master/screen/38ED3E84-6A50-4281-8889-7E42064FC394.png) 
+![ABC]( https://github.com/xiangzhihong/RN_meituan/blob/master/screen/D33945CE-65A6-46D1-9251-14A9D5BB0D2D.png) 
   
 
 # 运行前注意
-运行前请参考package.json文件需要的第三方库安装第三方库，或者直接使用npm install命令 安装依赖库（react native 0.51.0版本，最新版本请升级）。
+运行前请参考package.json文件需要的第三方库安装第三方库，或者直接使用npm install命令 安装依赖库（react native 0.51.0版本，最新版本请升级）。React Native最新的版本是0.55.2，有需要的可以新建一个RN项目后，将src目录下相关的项目拷贝过去，如果运行有问题，请按照提示进行相关修正。
+
 由于项目中使用的navigator被RN官方在0.44版本去除，所以在后面的版本中需要使用库：react-native-deprecated-custom-components。相关知识可以访问[navigator报错](http://blog.csdn.net/xiangzhihong8/article/details/78836136)。
+
+诸如此类问题，请大家根据最新的API进行相关修正！！！
+
+# 开发与运行环境
+建议使用WebStrom进行开发，并使用Yarn方式来管理项目依赖。
 
 依赖环境安装好后，然后使用命令运行项目：
 ## Android
