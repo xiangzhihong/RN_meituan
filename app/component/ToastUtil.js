@@ -1,14 +1,10 @@
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
- * @flow
+ * @flow Toast弹窗
  */
 
-<<<<<<< HEAD
 import React, {Component} from 'react';
-=======
-import React, {Component,PropTypes} from 'react';
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 import {
     StyleSheet,
     View,
@@ -16,10 +12,7 @@ import {
     Dimensions,
     Text,
 } from 'react-native'
-<<<<<<< HEAD
 import PropTypes from 'prop-types';
-=======
->>>>>>> 9f65954d6b618105b8e9c19ffa5f2ad8ceb1f7de
 export const DURATION = {LENGTH_LONG: 2000, LENGTH_SHORT: 500};
 const {height, width} = Dimensions.get('window');
 const OPACITY=0.6;
